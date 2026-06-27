@@ -1,57 +1,59 @@
-body{
-    background-color: #f4f6f8;
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-}
+@media (max-width:600px){
 
-header{
-    background-color: #ffffff;
-    border-bottom: 1px solid #e1e4e6;
-    padding: 15px 0;
-}
+    body{
+        background-color: #f4f6f8;
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+    }
 
-nav{
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
+    header{
+        background-color: #ffffff;
+        border-bottom: 1px solid #e1e4e6;
+        padding: 15px 0;
+    }
 
-nav a{
-    text-decoration: none;
-    color: #0066cc;  
-    font-weight: bold; 
-    transition: color 0.2s ease ;
-}
+    nav{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
 
+    nav a{
+        text-decoration: none;
+        color: #0066cc;
+        font-weight: bold;
+        transition: color 0.2s ease;
+    }
 
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-}
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
 
-section{
-    width: 90%;
-    max-width: 600px;
-    background-color: #ffffff;
-    border: 1px solid #e1e4e6;
-    border-radius: 8px;
-    padding: 25px;
-    border: lightblue;
-    margin: 15px 0;
-    box-shadow: 0 2px 4px rgba(0,0,0,0,0.5);
-    transition: transform  0.2s ease , box-shadow 0.2s ease ;
-}
+    section{
+        width: 90%;
+        max-width: 600px;
+        background-color: #ffffff;
+        border: 1px solid lightblue;
+        border-radius: 8px;
+        padding: 25px;
+        margin: 15px 0;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
 
-section:hover{
-    transform: translate(-5px);
-    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
-    border-color: #0066cc;
-}
+    section:hover{
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+        border-color: #0066cc;
+    }
 
-section h1,section h2{
-    color: #1a1a1a;
-    margin-top: 0;
+    section h1,
+    section h2{
+        color: #1a1a1a;
+        margin-top: 0;
+    }
 }
