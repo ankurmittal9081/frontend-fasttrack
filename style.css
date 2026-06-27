@@ -1,4 +1,4 @@
-@media (max-width:600px){
+
 
     body{
         background-color: #f4f6f8;
@@ -55,5 +55,25 @@
     section h2{
         color: #1a1a1a;
         margin-top: 0;
+    }
+
+    footer{
+        text-align: center;
+        padding: 20px;
+        color: #666;
+        font-size: 0.9em;
+    }
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column; /* Stack navigation links vertically on mobile */
+        align-items: center;
+        gap: 15px; /* Shrink the space between links */
+    }
+    section {
+        width: 95%; /* Make cards wider on mobile to use screen space */
+        padding: 15px; /* Reduce space inside card to fit small screens */
+    }
+    h1 {
+        font-size: 1.5em; /* Make the main title font slightly smaller on mobile */
     }
 }
